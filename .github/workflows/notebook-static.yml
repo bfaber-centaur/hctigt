@@ -1,0 +1,21 @@
+name: Notebook source checks
+
+on:
+  push:
+    paths:
+      - 'notebooks/**'
+      - 'scripts/check_notebook.py'
+      - '.github/workflows/notebook-static.yml'
+  pull_request:
+    paths:
+      - 'notebooks/**'
+      - 'scripts/check_notebook.py'
+      - '.github/workflows/notebook-static.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse notebooks and Python cells
+        run: python3 scripts/check_notebook.py
