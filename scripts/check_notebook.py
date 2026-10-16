@@ -14,6 +14,12 @@ NOTEBOOKS = {
         "run_experiment(",
         "TinyStories",
     ),
+    "03-make-a-choice.ipynb": (
+        "30-second tour of Colab",
+        "IM_READY",
+        "show_examples(",
+        "AFTER TRAINING",
+    ),
     "02-from-scratch.ipynb": (
         "RUN_PRETRAINING = False",
         "GPT2LMHeadModel(config)",
