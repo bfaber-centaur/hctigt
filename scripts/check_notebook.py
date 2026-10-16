@@ -16,8 +16,12 @@ NOTEBOOKS = {
     ),
     "03-make-a-choice.ipynb": (
         "IM_READY",
-        "show_examples(",
-        "show_examples(",
+        "STORY_PROMPTS = [",
+        'show_stories=(TRACK == "stories")',
+        'show_math=(TRACK == "math")',
+        "REVEAL_STORIES = False",
+        'elif not REVEAL_STORIES:',
+        "catastrophic forgetting",
     ),
     "02-from-scratch.ipynb": (
         "RUN_PRETRAINING = False",
