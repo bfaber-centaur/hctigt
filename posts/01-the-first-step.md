@@ -16,34 +16,37 @@ But fooling ourselves is a topic that others can handle[^lesswrong], I'm here to
 
 COLAB LINK
 
-This is a google colab sheet. You write code in it and evaluate that code. This one introduces you to the building blocks of messing with transformers. Go click it! I'll be right here when you get back.
+This is a google colab sheet. Think of it like a website that you can also code in. This one introduces you to the building blocks of messing with transformers. Go click it! I'll be right here when you get back.
 
 ---
 
-That was cool! 
+That was cool!
 
-There are some fun things hidden in there, did you find the secret extra options?
+There are a few things hidden in the notebook, by the way. Did you explore the secret doors? Did you see what happened to story prompts when you've trained addition?
 
-If you enjoyed that, you're ready! Go ask your own questions and do some experiments for the answers.
+If you enjoyed this, **you're ready.** Seriously. Go ask some questions and run some experiments to answer them. 
 
-NEXT steps
+### Keep walking
 
-mess with the colab, break something, import different models, try to un-train it. 
+**Mess around!** Break the Colab. Change the prompts. Try another model. Try to un-train something. See what happens. If you find something weird, pull on that thread!
 
-go deeper with this stuff? try ARENA! Read Neel's post on becoming a researcher.
+**Go deeper!** Try [ARENA](https://www.arena.education/). Read Neel Nanda's guide to becoming a researcher. There's a *lot* more to learn, and you don't have to learn it all before you start doing things.
 
-find people! mech interp discord, e ai discord, mech interp research slack, bluedot
+**Find your people!** There's a whole community of folks doing this stuff. Check out the MechInterp Discord, EleutherAI Discord, MechInterp Research Slack, or BlueDot. Ask questions. Share your experiments. Say hi!
 
-say hello: this is me.
+**And say hello to me, too!** I'm `bubskee` on Discord. I'd love to hear what you tried, especially if you broke something interesting.&#x20;
 
-thanks for reading!
-
-
+Thanks for reading. See you around! 
 
 
 
-[^1]: By interpretability, I mean whatever helps us understand what models are doing and why. Mechanistic, behavioral, pragmatic, prosaic—I'm interested in whatever works.
 
-[^2]: interp, from here on. minterp if you're feeling feisty.
+
+
+[^1]: By interpretability, I mean whatever helps us understand what models are doing and why. Mechanistic, behavioral, pragmatic, prosaic—whatever works!
+
+[^2]: interp, from here on. minterp if you're feeling feisty or minty or mechanical.
+
+[^fool]: a link about the easiest person to fool is yourself?
 
 [^lesswrong]: link to a sequence about being less wrong? maybe one of the beginner ones? haha
