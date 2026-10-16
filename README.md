@@ -8,6 +8,7 @@ This repository is the **authoring source of truth**. LessWrong is the primary p
 
 - [Manuscript](posts/01-the-first-step.md) — deliberately almost blank; the author writes the invitation.
 - [First-step Colab notebook](notebooks/01-the-first-step.ipynb) — Part A runs unchanged; Part B invites an intentional choice.
+- [Make a Choice Colab](notebooks/03-make-a-choice.ipynb) — interactive Stories/Math adventure with before-and-after probes, a 30-second Colab UI tour, and hidden rabbit holes. CPU beta: Stories and Math passed; Colab GPU still unverified.
 - [From-scratch rabbit hole](notebooks/02-from-scratch.ipynb) — optional: choose a corpus, initialize a GPT-2 architecture with random weights, and run bounded pretraining.
 - [Assets](assets/README.md) — illustrations and other publication material.
 
@@ -15,6 +16,7 @@ When this branch reaches upstream main, the notebook can be opened directly at:
 
 - First step: https://colab.research.google.com/github/bubskee/hctigt/blob/main/notebooks/01-the-first-step.ipynb
 - From scratch: https://colab.research.google.com/github/bubskee/hctigt/blob/main/notebooks/02-from-scratch.ipynb
+- Make a Choice: https://colab.research.google.com/github/bubskee/hctigt/blob/main/notebooks/03-make-a-choice.ipynb
 
 **Readers shouldn't need GitHub:** send them straight to the Colab notebook from the LessWrong post.
 

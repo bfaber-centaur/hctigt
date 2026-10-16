@@ -14,6 +14,14 @@ NOTEBOOKS = {
         "run_experiment(",
         "TinyStories",
     ),
+    "03-make-a-choice.ipynb": (
+        "IM_READY",
+        "STORY_PROMPTS = [",
+        'show_stories=(TRACK == "stories")',
+        'show_math=(TRACK == "math")',
+        "REVEAL_STORIES = False",
+        'elif not REVEAL_STORIES:',
+    ),
     "02-from-scratch.ipynb": (
         "RUN_PRETRAINING = False",
         "GPT2LMHeadModel(config)",
@@ -53,6 +61,15 @@ for name, expected in NOTEBOOKS.items():
     all_code = "\n".join(code)
     for needle in expected:
         assert needle in all_code, f"{name}: missing {needle}"
+
+    if name == "03-make-a-choice.ipynb":
+        all_markdown = "\n".join(
+            "".join(cell["source"]) if isinstance(cell["source"], list) else cell["source"]
+            for cell in data["cells"] if cell["cell_type"] == "markdown"
+        )
+        assert "catastrophic forgetting" in all_markdown
+        assert "your-model-organisms-might-be-fried" in all_markdown
+        assert "Your Model Organisms Might Be Fried" not in all_code
 
     if name == "02-from-scratch.ipynb":
         assert "GPT2LMHeadModel.from_pretrained" not in all_code
